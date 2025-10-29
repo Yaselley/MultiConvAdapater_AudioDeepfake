@@ -1,6 +1,5 @@
 # 🧩 MultiConvAdapter: A Parameter-Efficient Multi-Scale Convolutional Adapter for Synthetic Speech Detection
 
-## Paper Title
 **A Parameter-Efficient Multi-Scale Convolutional Adapter for Synthetic Speech Detection**
 
 Recent synthetic speech detection models typically adapt a pre-trained self-supervised learning (SSL) model via full fine-tuning, which is computationally demanding. Parameter-Efficient Fine-Tuning (PEFT) offers a lightweight alternative, but existing methods lack the inductive biases required to model the **multi-scale temporal artifacts** characteristic of spoofed audio.
@@ -57,6 +56,18 @@ pip install -r requirements.txt
 > **Note:** Ensure that the TEST set path in `config.py` is correctly set before starting evaluation.
 
 
---- 
-## Best Reported Weights
+## 🏆 Best Reported Weights with AASIST
+
+You can download the best-performing model checkpoints below:
+
+- **ASV19-trained model**
+- **ASV5-trained model**
+
+Both models were trained using the configuration files available here:  
+[🔗 Google Drive Folder](https://drive.google.com/drive/folders/1QfirjfC_qkWVjwjOKnr9s5JdR5_lZhOa?usp=sharing)
+
+
+
+
+
 
